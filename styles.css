@@ -1,0 +1,59 @@
+/* Estils per a la tarjeta principal */
+.pokemon-card {
+    background-color: #f1f1f1; /* Fons gris clar */
+    border-radius: 10px; /* Cantonades arrodonides */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombratge per a profunditat */
+    padding: 20px; /* Espai interior */
+    width: 300px; /* Ample de la tarjeta */
+    text-align: center; /* Centrat del contingut */
+    margin: 100px auto; /* Centrat vertical i horitzontal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estils per a la imatge del Pokémon */
+.pokemon-image {
+    max-width: 100%; /* Ample màxim de la imatge */
+    height: auto; /* Manté la proporció de la imatge */
+    border-radius: 8px; /* Arrodoniment de les cantonades */
+    margin-bottom: 15px; /* Espai inferior per separar de la informació */
+}
+
+/* Estils per a la secció d'informació del Pokémon */
+.pokemon-info {
+    background-color: #d3f4d7; /* Fons verd clar */
+    border-radius: 8px; /* Arrodoniment de les cantonades */
+    padding: 15px; /* Espai interior */
+}
+
+/* Estils per al nom del Pokémon */
+.pokemon-name {
+    font-family: 'Arial', sans-serif; /* Tipus de lletra */
+    font-size: 24px; /* Mida de la lletra */
+    color: #2e8b57; /* Color verd per al nom */
+    font-weight: bold; /* Nom en negreta */
+    margin-bottom: 10px; /* Espai inferior */
+}
+
+/* Estils per al tipus del Pokémon */
+.pokemon-type {
+    font-size: 16px; /* Mida de la lletra per al tipus */
+    font-weight: bold; /* Tipus en negreta */
+    margin-bottom: 5px; /* Espai inferior entre els tipus */
+}
+
+.pokemon-type.plant {
+    color: #3c763d; /* Verd per al tipus Planta */
+}
+
+.pokemon-type.poison {
+    color: #8e44ad; /* Morat per al tipus Venen */
+}
+
+/* Estils per a la descripció del Pokémon */
+.pokemon-description {
+    font-size: 14px; /* Mida més petita per a la descripció */
+    color: #7d7d7d; /* Color gris clar per a la descripció */
+    line-height: 1.6; /* Altura de línia per a millorar la llegibilitat */
+}
